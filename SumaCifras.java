@@ -1,14 +1,8 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+
 package com.mycompany.programasbasicosjava;
 import java.util.Scanner;
 
-/**
- *
- * @author edgar
- */
+
 public class SumaCifras {
     
 
@@ -24,10 +18,10 @@ public class SumaCifras {
            int suma;
            
            System.out.println("--SUMA LAS CIFRAS DE UN NÚMERO DE 4 CIFRAS--");
-           
+           // Recibimos el numero que deseamos sumar las cifras.
             System.out.print("Ingrese un número de 4 cifras: ");
                num = reader.nextInt();
-               
+               // Se saca cifra por cifra y se suman al final todas.
                if (num > 999 && num < 9999){
                       
                d1 = num%10;
@@ -46,7 +40,7 @@ public class SumaCifras {
            System.out.println("La suma de los digito es: " + suma);
            
                }else{
-                   System.out.println("El número no es de 4 cifras");
+                   System.out.println("El número no es de 4 cifras"); // En el caso de que no sea un número de 4 cifras se avisará.
                }
 
         }
